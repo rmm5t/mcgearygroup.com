@@ -1,0 +1,33 @@
+/*
+ * =Reset
+ */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';}
+
+
+/*
+ * =Structure
+ */
+body {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+h1, h2, h3, hr, address { display:none; }
+
+#logo { margin: 7em auto 3em; }
+
+p { margin: 2em auto; width: 640px; color: #b2b2b2; line-height: 1.5; }
+
+a { color: #15ABDB; text-decoration: none; }
+a.subdue { color: #fff; }
+a:hover { text-decoration: underline; }
