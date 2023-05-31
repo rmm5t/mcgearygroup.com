@@ -20,9 +20,10 @@ body {
   text-align: center;
   background: #333;
   color: #fff;
+  margin-bottom: 3em;
 }
 
-h1, h2, h3, hr, address { display:none; }
+h1, h2, hr, address { display:none; }
 
 #logo { margin: 7em auto 3em; }
 
@@ -32,3 +33,19 @@ a { color: #15ABDB; text-decoration: none; }
 a.subdue { color: #fff; }
 a.masked { color: #b2b2b2; }
 a:hover { text-decoration: underline; }
+
+ul#clients img {
+  max-height: 160px;
+  max-width: 320px;
+  margin-top: 1em;
+}
+
+ul#clients a img {
+  border: 5px solid white;
+  margin-top: 1em;
+  background-color: white;
+}
+
+ul#clients a:hover img {
+  border-color: #15ABDB;
+}
