@@ -18,6 +18,6 @@ end
 def ping(url)
   require 'open-uri'
   print "\nPinging #{url[0..70]}... "
-  io = open(url)
+  io = URI.parse(url).open
   puts io.status[0]
 end
