@@ -15,7 +15,7 @@ q:before,q:after{content:'';}
  * =Structure
  */
 body {
-  font-family: Georgia, serif;
+  font-family: Palatino Linotype, Palatino, Georgia, serif;
   font-size: 24px;
   text-align: center;
   background: #333;
